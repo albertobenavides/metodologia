@@ -20,7 +20,7 @@ Investiga los requisitos y recomendaciones para secciones relacionados a reporta
 * [Guía de estilo](https://www.elsevier.com/journals/international-journal-of-forecasting/0169-2070/guide-for-authors)
 * Descripción de los métodos y datos suscintamente
 
-## Elservier
+## Elsevier
 
 * [Página principal](https://www.elsevier.com/)
 * [Guía para autores](https://www.elsevier.com/__data/promis_misc/RESINV_GfA.pdf)
