@@ -45,12 +45,12 @@ Investiga los requisitos y recomendaciones para secciones relacionados a reporta
 * [Plantilla de Latex](https://www.springernature.com/gp/authors/campaigns/latex-author-support#c18782880)
 * Caracterización de datos y procedimientos para reproducir el trabajo
 
-## Journal of Causal Inference
-
-* [Página principal](https://www.scimagojr.com/journalsearch.php?q=21100897526&tip=sid&clean=0)
-
 ## Journal of Statistical Software
 
 * [Página principal](https://www.jstatsoft.org/index)
 * [Guía de estilo](https://www.jstatsoft.org/style)
 * No tiene guía de estilo para metodología
+
+## Journal of Causal Inference
+
+* [Página principal](https://www.scimagojr.com/journalsearch.php?q=21100897526&tip=sid&clean=0)
