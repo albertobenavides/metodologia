@@ -26,26 +26,26 @@ Investiga los requisitos y recomendaciones para secciones relacionados a reporta
 * [Guía para autores](https://www.elsevier.com/__data/promis_misc/RESINV_GfA.pdf)
 * Proveer material suficiente para replicar modelos o experimentos
 
-# IEEE Journal of Biomedical and Health Informatics
+## IEEE Journal of Biomedical and Health Informatics
 
 * [Página principal](https://www.ieee.org/)
 * [Estructura del artículo](https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/create-the-text-of-your-article/structure-your-article/#methodology)
 * Descripción detallada de lo que se hizo para ser reproducible
 
-# International Journal of Epidemiology
+## International Journal of Epidemiology
 
 * [Página principal](https://academic.oup.com/ije)
 * [Información para autores](https://academic.oup.com/ije/pages/General_Instructions)
 * Describir tipo de estudio, periodo, ubicación y tamaño de muestras
 
-# Methodology and Computing in Applied Probability
+## Methodology and Computing in Applied Probability
 
 * [Página principal](https://www.springer.com/journal/11009
 * [Guía de envíos](https://www.springer.com/journal/11009/submission-guidelines)
 * [Plantilla de Latex](https://www.springernature.com/gp/authors/campaigns/latex-author-support#c18782880)
 * Caracterización de datos y procedimientos para reproducir el trabajo
 
-# Journal of Causal Inference
+## Journal of Causal Inference
 
 * [Página principal](https://www.scimagojr.com/journalsearch.php?q=21100897526&tip=sid&clean=0)
 
