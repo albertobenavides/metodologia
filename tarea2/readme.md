@@ -40,7 +40,7 @@ Investiga los requisitos y recomendaciones para secciones relacionados a reporta
 
 ## Methodology and Computing in Applied Probability
 
-* [Página principal](https://www.springer.com/journal/11009
+* [Página principal](https://www.springer.com/journal/11009)
 * [Guía de envíos](https://www.springer.com/journal/11009/submission-guidelines)
 * [Plantilla de Latex](https://www.springernature.com/gp/authors/campaigns/latex-author-support#c18782880)
 * Caracterización de datos y procedimientos para reproducir el trabajo
