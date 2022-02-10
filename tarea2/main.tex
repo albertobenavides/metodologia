@@ -1,0 +1,152 @@
+% !TEX program = xelatex
+\documentclass[
+  11pt,
+  a4paper,
+  oneside
+]{article}
+
+%%%%% Prepare Packages for Formatting
+\usepackage{setspace}
+\usepackage{geometry}
+\geometry{tmargin=0.8in,bmargin=0.8in,lmargin=0.8in,rmargin=0.8in,headsep=0.0in,headheight=0.5in,foot=30.0pt}
+\usepackage{float}
+\usepackage{fancyhdr}         %draw header and foot
+\usepackage{natbib}
+
+%%%%% CONFIG ABOUT HEADER AND FOOT
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{}
+\chead{}
+\rhead{{\footnotesize \textbf{(page \thepage)}}}  %% PUT THE PAGE ON TOP RIGHT BUT NOT WORK
+\lfoot{}
+\cfoot{}
+\rfoot{}  %% PUT THE PAGE ON TOP RIGHT BUT NOT WORK
+\setlength\parindent{0pt}
+\renewcommand{\headrulewidth}{0pt} % remove lines as well
+\renewcommand{\footrulewidth}{0pt}
+
+%%%%% Prepare Packages for Text
+\usepackage[utf8]{inputenc}   %encoding
+% \usepackage[T1]{fontenc}      %encoding
+\usepackage{times}            %font
+\usepackage[english]{babel}
+\usepackage{titlesec}
+\titleformat{\section}
+{\normalfont\normalsize\bfseries}{\thesection.}{1em}{}
+\usepackage{blindtext}
+\usepackage[colorlinks=true,
+            urlcolor=blue]{hyperref}
+\usepackage{graphicx}
+\usepackage[no-math]{fontspec}
+\usepackage{MnSymbol}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{ulem}
+\usepackage{titling}
+\usepackage{xltxtra}
+\setmainfont{Arial}
+
+%%%%% Helper Macros
+%
+\newcommand{\aLargeSquareToFill}{\fbox{\phantom{\rule{0.38in}{0.26in}}}}
+%
+\newcommand{\aLargeTickedSquare}{\fbox{\resizebox{0.38in}{0.26in}{$\checkmark$}} }
+%
+\newcommand{\titlepart}{\thispagestyle{empty}
+\pdfbookmark[0]{Front Page}{Front Page}
+\label{sec:frontpage}
+\begin{center}
+\textbf{Name of the University\\
+Name of the Faculty\\
+Name of the Programme\\
+\vspace{3ex}
+RESEARCH PROJECT PROPOSAL}
+\end{center}
+
+\vspace{6ex}
+
+Name of Candidate:\uline{
+\phantom{xxxxxxxxxxxxxxxxxxx}
+\theauthor
+\hfill\phantom{x}}
+
+\vspace{3ex}
+
+Date of Admission to this programme:\uline{
+\phantom{xxxxx}
+\admissionDate
+\hfill\phantom{x}}
+
+\vspace{3ex}
+
+\studyTimeMode
+
+\leftskip=0.32in}
+
+
+%%%%% Fill The Blanks with Personal Information
+\author{Applicant Full Name}
+\date{\today}
+\title{The title of the proposal}
+\newcommand{\admissionDate}{\today}
+\newcommand{\studyTimeMode}{Full time mode}
+% \newcommand{\studyTimeMode}{Part time mode}
+
+%%%%% Begin Document
+\hypersetup{
+    pdfinfo={
+    pdftitle=\thetitle,
+    pdfauthor=\theauthor,
+    pdfdate=\thedate
+    }
+}
+
+\begin{document}
+
+%%%%% Main Text
+\titlepart
+
+\begin{abstract}
+    Brief summary of the proposal and its sections.
+\end{abstract}
+
+\section{Project Title}
+Communicate the key problem of the research in a brief sentence.
+
+\section{Introduction}
+The proposal length could vary, but four to seven pages are recommended in order to convince that the problem presented is relevant and could be studied and solved in the duration of the program and with the resources available.
+
+The introduction consists of one or two paragraphs about the research problem, the related topics, the importance of the problem being studied or solved, the proposed methods to approach it, the relevance of the outcomes and their differences from the ones already existing.
+
+\section{Hypothesis}
+Write the hypothesis that will be tested in one sentence. This should guide the project objectives and research questions.
+
+\section{Project objectives and/or Research questions}
+\begin{itemize}
+    \item The two or three most important goals.
+    \item Can be pointed in a list or a concise paragraph.
+\end{itemize}
+
+\section{Background and related literature}
+Incorporate the background supporting the methodology and the recent studies for the research problem focusing in the main objectives or research questions.
+
+\section{Methodology}
+Explain in order the procedures involved in the research process, summarize the theoretical bases, explain the advantages of choosing this methods over other approaches. If data or libraries are used, it is recommended that they are public in order to ease the reproductibility. Reference known methods and specify the variations. It is possible to use subsections for each method used. In this section should not include figures or tables.
+
+\section{Significance}
+While the Introduction mention the relevance of the research, here it need to be highlighted and demonstrated. Focus specially in the contributions that the results could bring to the state of the art and/or the solutions that can provide to the problems involved.
+
+\section{External Collaboration}
+
+If any, include authors, published papers, works in research programs or conferences where the research have been involved.
+
+\section{Project schedule}
+Add a schedule that includes the steps of the process, from investigation, possible publications and participation in conferences, to final products like thesis, libraries... A Gantt diagram is recommended.
+
+\nocite{usc, uw, yu, ub, mu, proposal, yale}
+\bibliographystyle{plainnat}
+\bibliography{biblio}
+
+
+\end{document}
