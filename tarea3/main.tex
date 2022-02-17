@@ -11,7 +11,7 @@
 \geometry{tmargin=0.8in,bmargin=0.8in,lmargin=0.8in,rmargin=0.8in,headsep=0.0in,headheight=0.5in,foot=30.0pt}
 \usepackage{float}
 \usepackage{fancyhdr}         %draw header and foot
-\usepackage{natbib}
+\usepackage[numbers,sort&compress]{natbib}
 
 %%%%% CONFIG ABOUT HEADER AND FOOT
 \pagestyle{fancy}
@@ -35,8 +35,9 @@
 \titleformat{\section}
 {\normalfont\normalsize\bfseries}{\thesection.}{1em}{}
 \usepackage{blindtext}
+% https://tex.stackexchange.com/a/238105
 \usepackage[colorlinks=true,
-            urlcolor=blue]{hyperref}
+            allcolors=blue]{hyperref}
 \usepackage{graphicx}
 \usepackage[no-math]{fontspec}
 \usepackage{MnSymbol}
@@ -134,7 +135,7 @@ Incorporate the background supporting the methodology and the recent studies for
 \section{Methodology}
 The study will focus in the \textbf{Monterrey Metropolitan Area (MMA) between 2018 and 2019}. The air quality samples in the are taken each hour from 13 sensors over the MMA that measure concentrations of \textbf{CO}, \textbf{NO}, \textbf{$\text{NO}_2$}, \textbf{$\text{O}_3$}, \textbf{$\text{SO}_2$}, \textbf{PM$_{10}$}, \textbf{PM$_{2.5}$}, and \textbf{atmospheric pressure}, \textbf{rainfall}, \textbf{relative humidity}, \textbf{solar radiation}, \textbf{temperature}, \textbf{wind velocity and direction}. This data is provided by the \textit{Sistema Integral de Monitoreo Ambiental de Nuevo León} (SIMA) \citep{aireNL}. The Mexican diseases data was obtained from the Mexican \textit{Department of Health} \citep{egresos} and contains information from all states and municipalities in Mexico such as \textbf{date of admission}, \textbf{egress date}, \textbf{age at the admission}, \textbf{gender}, \textbf{weight}, \textbf{height}, \textbf{ICD code upon arrived}, \textbf{ICD code upon diagnosed}, \textbf{reason of egress}.
 
-The air quality data needs to be interpolated because it contains imputed records. Different temporal interpolation techniques are used and compared \cite{Friedman1962}. Also, an spatio-temporal interpolation is performed to obtain the missing data values \cite{LiEA2002}. Both data sets are processed and converted to georeferenced time series \cite{Wei2019} that are stationary \cite{Hyndman2018} in order to establish their relationship by cross correlation \cite{derrickEA2004}, multiple regression analysis \cite{Brockwell2002}, vector autorregresive approaches, causality models \cite{popescuEA2013} and geographic interactions \cite{ComberEA2019}. The results are ranked by metrics like R$^2$, the Akaike (AIC), and the Bayesian (BIC) information criteria \cite{Albert2007}. Finally, it will be produced a web application that allow general and specialized population to interact with the data and obtain forecasts, interactions and visualizations of the models described.
+The air quality data needs to be interpolated because it contains imputed records. Different temporal interpolation techniques are used and compared \citep{Friedman1962}. Also, an spatio-temporal interpolation is performed to obtain the missing data values \citep{LiEA2002}. Both data sets are processed and converted to georeferenced time series \citep{Wei2019} that are stationary \citep{Hyndman2018} in order to establish their relationship by cross correlation \citep{derrickEA2004}, multiple regression analysis \citep{Brockwell2002}, vector autorregresive approaches, causality models \citep{popescuEA2013} and geographic interactions \citep{ComberEA2019}. The results are ranked by metrics like R$^2$, the Akaike (AIC), and the Bayesian (BIC) information criteria \citep{Albert2007}. Finally, it will be produced a web application that allow general and specialized population to interact with the data and obtain forecasts, interactions and visualizations of the models described.
 
 \section{Significance}
 While the Introduction mention the relevance of the research, here it need to be highlighted and demonstrated. Focus specially in the contributions that the results could bring to the state of the art and/or the solutions that can provide to the problems involved.
