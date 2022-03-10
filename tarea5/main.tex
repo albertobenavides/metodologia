@@ -18,13 +18,11 @@
 \fancyhf{}
 \lhead{}
 \chead{}
-\rhead{{\footnotesize \textbf{(page \thepage)}}}  %% PUT THE PAGE ON TOP RIGHT BUT NOT WORK
+\rhead{{\footnotesize \textbf{Page \thepage}}}  %% PUT THE PAGE ON TOP RIGHT BUT NOT WORK
 \lfoot{}
 \cfoot{}
 \rfoot{}  %% PUT THE PAGE ON TOP RIGHT BUT NOT WORK
-\setlength\parindent{0pt}
-\renewcommand{\headrulewidth}{0pt} % remove lines as well
-\renewcommand{\footrulewidth}{0pt}
+% \setlength\parindent{0pt}
 
 %%%%% Prepare Packages for Text
 \usepackage[utf8]{inputenc}   %encoding
@@ -58,9 +56,9 @@
 \pdfbookmark[0]{Front Page}{Front Page}
 \label{sec:frontpage}
 \begin{center}
-\textbf{Name of the University\\
-Name of the Faculty\\
-Name of the Programme\\
+\textbf{Universidad Autonoma de Nuevo Leon\\
+Facultad de Ingenieria Mecanica y Electrica\\
+Posgrado de Ingenieria de Sistemas\\
 \vspace{3ex}
 RESEARCH PROJECT PROPOSAL}
 \end{center}
@@ -87,9 +85,9 @@ Date of Admission to this programme:\uline{
 
 
 %%%%% Fill The Blanks with Personal Information
-\author{Applicant Full Name}
+\author{Jose Alberto Benavides Vazquez}
 \date{\today}
-\title{The title of the proposal}
+\title{Impact of the air pollutants in the population health in the Monterrey Metropolitan Area}
 \newcommand{\admissionDate}{\today}
 \newcommand{\studyTimeMode}{Full time mode}
 % \newcommand{\studyTimeMode}{Part time mode}
@@ -113,7 +111,7 @@ Date of Admission to this programme:\uline{
 \end{abstract}
 
 \section{Project Title}
-Communicate the key problem of the research in a brief sentence.
+Impact of the air pollutants in the population health in the Monterrey Metropolitan Area.
 
 \section{Introduction}
 This study focus on the impact that the air quality have in the population welfare primarily in the Monterrey Metropolitan Area between 2018 and 2019 because we have a database containing air quality data obtained from the Comprehensive Environmental Monitoring System (abbreviated SIMA in Spanish from Sistema Integral de Monitoreo Ambiental) \citep{aireNL}. Also, it have been incorporated a database containing the hospital discharge records for Mexico over the same span of time from the open repository of the Department of Health of Mexico \cite{mexGobSS2020}.
@@ -127,12 +125,18 @@ Air pollution can be caused by events that impacts the atmosphere, like forest f
 The \emph{International Classification of Diseases} (ICD)\footnote{The name of the diseases corresponding to the ICD code is obtained from \url{https://icd.who.int/browse10/2019/en}} is a code associated to diseases by their trends and statistical values, established by the \citep{icd}. It consists, generally, in a letter and three numbers between $0$ and $9$. For example, the code for \texttt{pneumonia due to staphylococcus} is \texttt{J152}. This system comprehends from the values \texttt{A00.0} to \texttt{Z99.9}, leaving the \texttt{U} letter for yet unknown sources. This classification was proposed by Farr at the end of the XIX century \cite{who2011}, and its purpose is to understand the causes of morbidity and mortality in order to improve the quality of life of the human population \cite{who2011}.
 
 \section{Hypothesis}
-Write the hypothesis that will be tested in one sentence. This should guide the project objectives and research questions.
+The contamination levels reported can explain the statistically significant variations and trends of georeferenced data from health reports. Also, it is possible to automatize these relationships in an interactive and free web service.
 
 \section{Project objectives and/or Research questions}
 \begin{itemize}
-    \item The two or three most important goals.
-    \item Can be pointed in a list or a concise paragraph.
+    \setlength\itemsep{-0.5em}
+    \item Stablish a clear and scientifically sustained relationship between air pollution and the human diseases that them can cause.
+    \item Study the impact of the air pollution in the Metropolitan Monterrey Area during  2017 and 2019 in the health population.
+    \item Choose or propose a methodology to calculate the causation between air pollution and associated human diseases.
+    \item Identify the areas where they are more air pollution and stablish a relationship between the people that live nearby those areas.
+    \item Propose a rank to determine which air pollutants have the most direct effect in the human health.
+    \item Propose pollution emission limits, scientifically justified, that can be used by organizations interested in this matter.
+    \item Generate interactive and free tools that let people and specialist know the levels, relationships, risks, etc. related to the air pollutants studied.
 \end{itemize}
 
 \section{Background and related literature}
