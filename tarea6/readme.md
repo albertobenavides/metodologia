@@ -72,5 +72,5 @@ Investiga las indicaciones sobre el reportaje de la solución propuesta y result
 - [ ] Compartir datos, código y la metodología del procesamiento sin falsear información
 - [ ] Reportar estadística descriptiva básica y tendencias
 - [ ] Especificar intervalos de confianza y pruebas estadísticas
-- [ ] Apoyarse con el uso de imágenes y tablas cuando sea necesario (favorecer datos nativos)
+- [ ] Apoyarse con el uso de imágenes y tablas cuando sea necesario (favorecer Latex nativos)
 - [ ] Explicar y referenciar tablas e imágenes agregadas
