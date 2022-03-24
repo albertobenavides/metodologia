@@ -69,8 +69,8 @@ Investiga las indicaciones sobre el reportaje de la solución propuesta y result
 - [ ] Resultados breves, claros, honestos, correspondientes a la metodología
 - [ ] Publicar resultados relacionados con la hipótesis y objetivos específicos
 - [ ] Especificar si los resultados son derivados del estudio
-- [ ] Compartir datos y preprocesamiento sin falsear información
+- [ ] Compartir datos, código y la metodología del procesamiento sin falsear información
 - [ ] Reportar estadística descriptiva básica y tendencias
 - [ ] Especificar intervalos de confianza y pruebas estadísticas
-- [ ] Apoyarse con el uso de imágenes y tablas cuando sea necesario
+- [ ] Apoyarse con el uso de imágenes y tablas cuando sea necesario (favorecer datos nativos)
 - [ ] Explicar y referenciar tablas e imágenes agregadas
