@@ -1,6 +1,6 @@
 # Tarea 9
 
-Investiga sobre repositorios de pre-prints de tu área, sobre la política de pre-prints de por lo menos tres revistas indizadas potenciales para publicar los resultados de tu proyecto. Investiga también potenciales mailing lists de tu área particular. Documenta los hallazgos en tu entregable de la semana.
+Investiga sobre repositorios de _pre-prints_ de tu área, sobre la política de _pre-prints_ de por lo menos tres revistas indizadas potenciales para publicar los resultados de tu proyecto. Investiga también potenciales mailing lists de tu área particular. Documenta los hallazgos en tu entregable de la semana.
 
 ## Servidores para _pre-prints_
 
